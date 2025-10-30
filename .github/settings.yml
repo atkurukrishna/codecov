@@ -1,0 +1,37 @@
+# Repository settings
+# This file is used by the Probot Settings app to manage repository settings
+# https://github.com/probot/settings
+
+repository:
+  # The name of the repository
+  name: codecov
+
+  # A short description of the repository
+  description: This repository is meant to show the features and functionalities of Codecov
+
+  # Set to true to make the repository private
+  private: true
+
+  # Either true to enable the wiki for this repository or false to disable it
+  has_wiki: false
+
+  # Either true to enable issues for this repository or false to disable them
+  has_issues: true
+
+  # Either true to enable projects for this repository or false to disable them
+  has_projects: false
+
+  # Either true to enable downloads for this repository or false to disable them
+  has_downloads: true
+
+  # Either true to allow squash-merging pull requests or false to prevent it
+  allow_squash_merge: true
+
+  # Either true to allow merging pull requests with a merge commit or false to prevent it
+  allow_merge_commit: true
+
+  # Either true to allow rebase-merging pull requests or false to prevent it
+  allow_rebase_merge: true
+
+  # Either true to enable automatic deletion of branches on merge or false to disable
+  delete_branch_on_merge: true
